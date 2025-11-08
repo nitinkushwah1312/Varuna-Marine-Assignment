@@ -1,22 +1,7 @@
-# node_modules
-# dist
-# .turbo
-# .vite
-# .env
-# .DS_Store
-# coverage
-# *.log
-# frontend/node_modules
-# backend/node_modules
-# frontend/dist
-# backend/dist
-# # 
-@"
 # Node
 node_modules/
 frontend/node_modules/
 backend/node_modules/
-
 # Build outputs
 dist/
 frontend/dist/
@@ -26,22 +11,21 @@ backend/dist/
 .cache/
 .tmp/
 coverage/
-
-# Environment files (never commit real secrets)
+# Ignore real env files
 .env
-.env.*
 backend/.env
 frontend/.env
-
+# Allow env templates (DO commit these)
+!.env.example
+!backend/.env.example
+!frontend/.env.example
 # Logs
 *.log
 npm-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-
 # Editor/OS noise
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
-"@ | Set-Content .gitignore
