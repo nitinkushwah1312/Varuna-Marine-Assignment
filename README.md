@@ -79,10 +79,22 @@ Run: `cd backend && npm test`.
 
 ## Screenshots / Samples
 
-- Routes tab: list routes, filter by vessel/fuel/year, set baseline.
-- Compare tab: table + simple SVG chart for baseline vs comparison.
-- Banking tab: view CB and adjusted CB, bank/apply with validations.
-- Pooling tab: add members, load CBs, validate pool sum, create pool.
+##  Routes tab  
+Lists routes, allows filtering (vessel / fuel / year), and lets the user set a baseline.  
+<img src="./docs/screenshots/Routes.png" width="750"/>
+
+## 📊 Compare tab  
+Shows baseline vs. other routes with percentage difference and a simple SVG visual.  
+<img src="./docs/screenshots/Compare.png" width="750"/>
+
+##  Banking tab  
+Displays CB (Compliance Balance), allows banking or applying surplus with validations.  
+<img src="./docs/screenshots/Banking.png" width="750"/>
+
+##  Pooling tab  
+Add members, load CBs, validate pool sum, and create a pool.  
+<img src="./docs/screenshots/Pooling.png" width="750"/>
+
 
 ## Notes
 
