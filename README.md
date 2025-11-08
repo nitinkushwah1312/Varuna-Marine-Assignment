@@ -81,19 +81,19 @@ Run: `cd backend && npm test`.
 
 ##  Routes tab  
 Lists routes, allows filtering (vessel / fuel / year), and lets the user set a baseline.  
-<img src="Nitin/docs/screenshots/Routes.png" width="750"/>
+<img src="docs/screenshots/Routes.png" width="750"/>
 
 ## 📊 Compare tab  
 Shows baseline vs. other routes with percentage difference and a simple SVG visual.  
-<img src="Nitin/docs/screenshots/Compare.png" width="750"/>
+<img src="docs/screenshots/Compare.png" width="750"/>
 
 ##  Banking tab  
 Displays CB (Compliance Balance), allows banking or applying surplus with validations.  
-<img src="Nitin/docs/screenshots/Banking.png" width="750"/>
+<img src="docs/screenshots/Banking.png" width="750"/>
 
 ##  Pooling tab  
 Add members, load CBs, validate pool sum, and create a pool.  
-<img src="Nitin/docs/screenshots/Pooling.png" width="750"/>
+<img src="docs/screenshots/Pooling.png" width="750"/>
 
 
 ## Notes
